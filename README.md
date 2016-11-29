@@ -1,0 +1,1 @@
+# workshop_aspnetcore_circleci_azure
