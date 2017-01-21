@@ -25,7 +25,7 @@ namespace UnitTest
             var responseString = await response.Content.ReadAsStringAsync();
             var data = JsonConvert.DeserializeObject<List<Pessoa>>(responseString);
 
-            Assert.Equal(data.Count, 0);
+            Assert.Equal(data.Count, 5);
         }
 
         [Fact]
